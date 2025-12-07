@@ -9,4 +9,8 @@ public class Context {
         System.out.println("-------------------------");
         System.out.println("=========================");
     }
+
+    public void setStrategy(Strategy strategy) {
+        this.strategy = strategy;
+    }
 }
